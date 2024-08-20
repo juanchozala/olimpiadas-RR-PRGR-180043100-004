@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poetsen+One&family=Seymour+One&display=swap'); 
+* {              /*borra todo lo cargado por los navegadores*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; 
+    background-image: url("./img/fondo3.jpg");
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: left;
+    font-family: "Poetsen One", sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    justify-content: center;
+    vertical-align: 20%;
+
+}
+#carouselExampleAutoplaying img{
+    height:20rem;
+
+}
+h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+}
+.card{
+    border-color: rgb(31, 33, 65);
+    border-width: 4px;
+    background-image: url("./img/imagenfon3.jpg");
+}
+.cardcelulares{
+    font-family: cursive;
+
+}

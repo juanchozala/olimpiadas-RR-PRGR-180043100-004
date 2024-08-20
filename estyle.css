@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poetsen+One&family=Seymour+One&display=swap'); 
+* {              /*borra todo lo cargado por los navegadores*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6; 
+    background-image: url("./img/fondo3.jpg");
+}
+
+
+#carouselExampleAutoplaying img{
+    height:400px;
+
+}
